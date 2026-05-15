@@ -25,14 +25,9 @@ Para rodar este projeto na sua máquina, você precisará do [Node.js](https://n
 1. **Clone o repositório:**
 
    ```bash
-   git clone [https://github.com/jose-eduardo-00/simulador-entrevista.git](https://github.com/jose-eduardo-00/simulador-entrevista.git)
+   git clone https://github.com/jose-eduardo-00/simulador-entrevista.git
 
    cd simulador-entrevista
-
-   Instale as dependências:
-   npm install
-   ou
-   yarn install
 
    Crie um arquivo .env na raiz do projeto e adicione a sua chave de API do Gemini:
 
@@ -41,5 +36,29 @@ Para rodar este projeto na sua máquina, você precisará do [Node.js](https://n
    Inicie o servidor de desenvolvimento:
    npm run dev
    ou
+   yarn dev
+   ```
+
+2. **Instale as dependências:**
+
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
+
+3. **Configuração das Variáveis de Ambiente:**
+
+   ```bash
+   Crie um arquivo .env na raiz do projeto e adicione a sua chave de API do Gemini:
+
+   VITE_GEMINI_API_KEY=sua_chave_de_api_aqui
+   ```
+
+4. **Inicie o servidor de desenvolvimento:**
+
+   ```bash
+   npm run dev
+   # ou
    yarn dev
    ```
