@@ -62,3 +62,7 @@ Para rodar este projeto na sua máquina, você precisará do [Node.js](https://n
    # ou
    yarn dev
    ```
+   
+##  Imagem do projeto
+
+<img width="1861" height="881" alt="Captura de tela 2026-05-15 124701" src="https://github.com/user-attachments/assets/93c1d533-b920-46dd-8d1c-144cc60cd7ba" />
